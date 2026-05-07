@@ -1,4 +1,4 @@
-# 🔐 Login & Registration System
+# 🔐 Web Login & Registration System
 
 A full-stack user authentication and management system built using **Java Servlets**, **JSP**, **JPA/Hibernate**, and **PostgreSQL**. This project demonstrates a secure login and registration flow with complete user CRUD operations and a modern frontend interface.
 
@@ -40,13 +40,16 @@ A full-stack user authentication and management system built using **Java Servle
 )
 
 📝 Signup Page
-()
+(<img width="1250" height="740" alt="image" src="https://github.com/user-attachments/assets/a23631b1-3454-4e1a-b56f-d6fef4428ce4" />
+)
 
-🏠 User Dashboard
-(Drag and drop your Dashboard/User List screenshot here)
+🔑 Reset Password
+(<img width="1271" height="570" alt="image" src="https://github.com/user-attachments/assets/a1c271b3-2454-42f2-b1a5-97c6ba9888de" />
+)
 
 📊 Database View (PostgreSQL)
-(Drag and drop a screenshot of your PostgreSQL table here)
+(<img width="1464" height="584" alt="image" src="https://github.com/user-attachments/assets/09fcd253-f99e-4e2b-95bf-c967defbfc81" />
+)
 
 📌 Future Improvements
 Security: Adding BCrypt password encryption for enhanced data protection.
@@ -56,4 +59,4 @@ API: Implementing a RESTful API version for cross-platform support.
 UX: Adding real-time toast notifications for user actions (Success/Error messages).
 
 👨‍💻 Author
-Niha GitHub: https://github.com/nihahawas
+Niha Hawas GitHub: https://github.com/nihahawas
