@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="form-section">
+
+        <!-- ================= LOGIN ================= -->
+        <div class="form-container active" id="loginForm">
+            <h1 class="form-title">Welcome Back</h1>
+            <p class="form-subtitle">Sign in to your account</p>
+
+            <form action="login" method="post">
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    <i class="fas fa-envelope"></i>
+                </div>
+
+                <div class="form-group">
+                    <input type="password" name="password" class="form-control" placeholder="Password" required>
+                    <i class="fas fa-lock"></i>
+                </div>
+
+                <div class="forgot-password">
+                    <a href="#" onclick="showForgotPassword()">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="btn-primary">
+                    <span class="btn-text">Sign In</span>
+                </button>
+            </form>
+
+            <div class="form-switch">
+                Don't have an account?
+                <a href="#" onclick="showSignup()">Create one</a>
+            </div>
+        </div>
+
+        <!-- ================= SIGNUP ================= -->
+        <div class="form-container" id="signupForm">
+            <h1 class="form-title">Create Account</h1>
+
+            <form action="register" method="post">
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                    <i class="fas fa-user"></i>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    <i class="fas fa-envelope"></i>
+                </div>
+
+                <div class="form-group">
+                    <input type="password" name="password" class="form-control" placeholder="Password" required>
+                    <i class="fas fa-lock"></i>
+                </div>
+
+                <div class="form-group">
+                    <input type="password" name="confirmPassword" class="form-control" placeholder="Confirm Password" required>
+                    <i class="fas fa-lock"></i>
+                </div>
+
+                <button type="submit" class="btn-primary">
+                    <span class="btn-text">Create Account</span>
+                </button>
+            </form>
+
+            <div class="form-switch">
+                Already have an account?
+                <a href="#" onclick="showLogin()">Sign in</a>
+            </div>
+        </div>
+
+        <!-- ================= FORGOT PASSWORD ================= -->
+        <div class="form-container" id="forgotForm">
+            <h1 class="form-title">Reset Password</h1>
+
+            <form action="forgot" method="post">
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    <i class="fas fa-envelope"></i>
+                </div>
+
+                <button type="submit" class="btn-primary">
+                    <span class="btn-text">Send Reset</span>
+                </button>
+            </form>
+
+            <div class="form-switch">
+                <a href="#" onclick="showLogin()">Back to Login</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- RIGHT SIDE PANEL -->
+    <div class="image-section">
+        <div class="image-content">
+            <h2>Hello, Friend!</h2>
+            <p>Enter your details and start your journey</p>
+        </div>
+    </div>
+</div>
+
+<!-- ================= JS ================= -->
+<script src="script.js"></script>
+
+</body>
+</html>
