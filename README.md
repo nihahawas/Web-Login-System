@@ -52,6 +52,7 @@ A full-stack user authentication and management system built using **Java Servle
 
 
 📌 Future Improvements
+
 Security: Adding BCrypt password encryption for enhanced data protection.
 
 API: Implementing a RESTful API version for cross-platform support.
