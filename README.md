@@ -36,20 +36,20 @@ A full-stack user authentication and management system built using **Java Servle
    📸 Screenshots
    
 🔐 Login Page
-(<img width="1210" height="620" alt="image" src="https://github.com/user-attachments/assets/dc6b8b16-4d1a-4cbb-b976-27abe162eeb1" />
-)
+<img width="1210" height="620" alt="image" src="https://github.com/user-attachments/assets/dc6b8b16-4d1a-4cbb-b976-27abe162eeb1" />
+
 
 📝 Signup Page
-(<img width="1250" height="740" alt="image" src="https://github.com/user-attachments/assets/a23631b1-3454-4e1a-b56f-d6fef4428ce4" />
-)
+<img width="1250" height="740" alt="image" src="https://github.com/user-attachments/assets/a23631b1-3454-4e1a-b56f-d6fef4428ce4" />
+
 
 🔑 Reset Password
-(<img width="1271" height="570" alt="image" src="https://github.com/user-attachments/assets/a1c271b3-2454-42f2-b1a5-97c6ba9888de" />
-)
+<img width="1271" height="570" alt="image" src="https://github.com/user-attachments/assets/a1c271b3-2454-42f2-b1a5-97c6ba9888de" />
+
 
 📊 Database View (PostgreSQL)
-(<img width="1464" height="584" alt="image" src="https://github.com/user-attachments/assets/09fcd253-f99e-4e2b-95bf-c967defbfc81" />
-)
+<img width="1464" height="584" alt="image" src="https://github.com/user-attachments/assets/09fcd253-f99e-4e2b-95bf-c967defbfc81" />
+
 
 📌 Future Improvements
 Security: Adding BCrypt password encryption for enhanced data protection.
