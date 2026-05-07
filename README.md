@@ -59,5 +59,7 @@ API: Implementing a RESTful API version for cross-platform support.
 
 UX: Adding real-time toast notifications for user actions (Success/Error messages).
 
+
 👨‍💻 Author
+
 Niha Hawas GitHub: https://github.com/nihahawas
